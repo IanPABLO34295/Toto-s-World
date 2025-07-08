@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toto's World Agency - Event Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Toto's <span>World</span> Agency</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#booking">Booking</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>We Make Events Magical!</h1>
+        <p>Kids' Parties • School Events • Fun Days</p>
+        <button onclick="contactUs()">Book Now</button>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>At <strong>Toto's World Agency</strong>, we create unforgettable moments for kids. From vibrant birthday parties to exciting school events, we bring the fun to life!</p>
+        <img src="https://cdn-icons-png.flaticon.com/512/2920/2920043.png" alt="Kids Party">
+    </section>
+
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="service-card">
+            <h3>Birthday Parties</h3>
+            <p>Colorful, fun-filled parties with decorations, games, and more!</p>
+        </div>
+        <div class="service-card">
+            <h3>School Events</h3>
+            <p>We organize exciting, educational, and entertaining school activities.</p>
+        </div>
+        <div class="service-card">
+            <h3>Fun Days & Festivals</h3>
+            <p>Bouncy castles, face painting, games, and lots of fun for everyone!</p>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-grid">
+            <img src="https://cdn.pixabay.com/photo/2016/03/27/18/37/children-1282996_960_720.jpg" alt="Event Photo 1">
+            <img src="https://cdn.pixabay.com/photo/2017/08/10/07/32/birthday-2613433_960_720.jpg" alt="Event Photo 2">
+            <img src="https://cdn.pixabay.com/photo/2017/01/06/19/15/kids-1957791_960_720.jpg" alt="Event Photo 3">
+            <img src="https://cdn.pixabay.com/photo/2016/04/06/15/24/kids-party-1316854_960_720.jpg" alt="Event Photo 4">
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <h2>What Parents Say</h2>
+        <div class="testimonial-card">
+            <p>"Toto's World made my son's birthday unforgettable! The kids had a blast."</p>
+            <h4>- Sarah M.</h4>
+        </div>
+        <div class="testimonial-card">
+            <p>"Professional, friendly, and full of energy. Highly recommended for any kids' event."</p>
+            <h4>- James K.</h4>
+        </div>
+    </section>
+
+    <section class="booking" id="booking">
+        <h2>Book Your Event</h2>
+        <form id="bookingForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Event Type (e.g., Birthday, School Event)" required>
+            <input type="date" required>
+            <textarea placeholder="Additional Details" rows="4"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to plan your next event? Let's talk!</p>
+        <button onclick="contactUs()">Get in Touch</button>
+    </section>
+
+    <footer>
+        &copy; 2025 Toto's World Agency. All Rights Reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
